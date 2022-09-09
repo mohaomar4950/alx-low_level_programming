@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - generates random number n
+ * Description: determines n is positive, zero, or negative.
+ * return: 0
+ * /
 int main(void)
 {
 	int n;
@@ -20,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-	printf("%d is negative", n);
+	printf("%d is negative\n", n);
 	}
 	return (0);
 }
