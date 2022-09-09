@@ -5,7 +5,7 @@
 /**
  * main - generates random number n
  * Description: determines n is positive, zero, or negative.
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
