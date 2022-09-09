@@ -10,7 +10,6 @@
  * Description: determines n is positive, zero, or negative.
  * return: 0
  */
-
 int main(void)
 {
 	int n;
