@@ -4,8 +4,9 @@
 
 /**
  * main - it prints the last digit of a random number.
- * description - determines the last digit of number.
- * Return 0.
+ * description: determines the last digit of number.
+ * 
+ * Return: 0. 
  */
 
 
@@ -22,7 +23,7 @@ int main(void)
 	{
 		printf("and is greater than 5\n");
 	}
-	else if ( lastDigit == 0)
+	else if (lastDigit == 0)
 	{
 		printf("and is 0\n");
 	}
@@ -31,5 +32,5 @@ int main(void)
 		printf("and is less than 6 and not 0\n");
 	}
 
-	return 0;
+	return (0);
 }
