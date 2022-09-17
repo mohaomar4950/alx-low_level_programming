@@ -9,7 +9,8 @@
 int main(void)
 {
 	int alpha = 97;
-	while (alpha <= 122)
+
+	while (alpha < 123)
 	{
 		putchar(alpha);
 		alpha++;
