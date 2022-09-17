@@ -5,8 +5,8 @@
 /**
  * main - it prints the last digit of a random number.
  * description: determines the last digit of number.
- * 
- * Return: 0. 
+ *
+ * Return: 0.
  */
 
 
