@@ -9,14 +9,13 @@
 int main()
 {
 	char i = 97;
+	char j = 65;
 
 	while (i <= 122)
 	{
 		putchar(i);
 		i++;
 	}
-
-	char j = 65;
 
 	while (j <= 90)
 	{
