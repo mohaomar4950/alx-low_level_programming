@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - it prints alphabets using putchar.
+ * print_alphabet - it prints alphabets using putchar.
  *
  * Return (0);
  */
@@ -10,10 +10,10 @@
 void print_alphabet(void)
 {
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		_putchar(c);
-		_putchar('\n');
 		c++;
 	}
 }
