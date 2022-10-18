@@ -2,7 +2,7 @@
 
 /**
  * main - void
- * Description: printsalphabets without q and e.
+ * Description: prints alphabets without q and e.
  * Author: mohaomar4950
  * Return: 0.
  */
@@ -16,8 +16,8 @@ int main(void)
 		if (a != 'q' && a != 'e')
 		{
 			putchar(a);
-			a++;
 		}
+		a++;
 	}
 	putchar(10);
 	return (0);
