@@ -9,10 +9,10 @@
 
 void print_alphabet_x10(void)
 {
+	int n = 1;
 	char c = 97;
-	int count = 0;
 
-	while (count < 10)
+	while (n <= 10)
 	{
 		while (c <= 122)
 		{
@@ -20,6 +20,6 @@ void print_alphabet_x10(void)
 			c++;
 		}
 		_putchar(10);
-		c++;
+		n++;
 	}
 }
